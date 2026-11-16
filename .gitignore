@@ -19,3 +19,15 @@
 
 # macOS metadata
 .DS_Store
+
+# Local credentials and runtime
+.env
+.env.*
+*.pem
+*.key
+auth.json
+credentials*.json
+*token*.json
+.codex/
+.claude/settings.local.json
+.venv/
